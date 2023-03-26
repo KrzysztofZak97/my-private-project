@@ -1,0 +1,37 @@
+.footer-line {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-top: 2px solid gray;
+}
+.footer-border {
+  display: flex;
+  border: 2px solid gray;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 auto;
+}
+.footer-item {
+  margin: 0px;
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-right: 2px solid gray;
+  &:last-child {
+    border-right: 0px;
+  }
+  &__title {
+    font-family: "Permanent Marker", cursive;
+    color: $brand-color;
+    font-size: 35px;
+    text-align: center;
+  }
+  &__text {
+    color: $whitecolor;
+    font-size: 18px;
+  }
+}

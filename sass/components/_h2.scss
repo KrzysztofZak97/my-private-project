@@ -1,0 +1,86 @@
+.display-section {
+  display: flex;
+}
+.second-title {
+  color: $brand-color;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.elephant {
+  margin-bottom: 20px;
+  width: 450px;
+  background-image: url("../images/elephantgym.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 80px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  &:hover {
+    box-shadow: 0px 1px 1px $brand-color, 0px 4px 4px $brand-color,
+      1px 4px 6px $brand-color;
+    cursor: pointer;
+  }
+
+  &__title {
+    color: $brand-color;
+    font-size: 25px;
+    font-family: "Permanent Marker", cursive;
+  }
+  &__text {
+    color: $whitecolor;
+    font-size: 18px;
+    width: 200px;
+  }
+}
+.advice {
+  background-image: url("../images/advice.jpg");
+  width: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  &:hover {
+    box-shadow: 0px 1px 1px $brand-color, 0px 4px 4px $brand-color,
+      1px 4px 6px $brand-color;
+    cursor: pointer;
+  }
+  &__title {
+    position: absolute;
+    right: 20px;
+    font-size: 25px;
+    color: $brand-color;
+    text-align: right;
+    padding-left: 30px;
+    font-family: "Permanent Marker", cursive;
+  }
+  &__text {
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    color: $whitecolor;
+    font-size: 18px;
+    width: 200px;
+    text-align: right;
+    justify-content: right;
+  }
+}
+.h3-text {
+  color: $brand-color;
+  font-size: 25px;
+  font-family: "Permanent Marker", cursive;
+  margin-left: 50px;
+}
