@@ -1,0 +1,98 @@
+.contact-form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contact-text {
+  color: $brand-color;
+  font-size: 25px;
+  margin-top: 100px;
+}
+.form-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    &:hover,
+    &:focus {
+      outline: $brand-color;
+      color: $brand-color;
+    }
+  }
+  &__text {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: $brand-color;
+  }
+  &__input {
+    width: 540px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding-left: 5px;
+    background-color: gray;
+    color: $whitecolor;
+
+    &:hover,
+    &:focus {
+      outline: $brand-color;
+      border: 1px solid $brand-color;
+    }
+  }
+  &__textarea {
+    margin-top: 4px;
+    width: 510px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: gray;
+    color: $whitecolor;
+
+    &:hover,
+    &:focus {
+      outline: $brand-color;
+      border: 1px solid $brand-color;
+    }
+  }
+  &__button {
+    outline: none;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background: $brand-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: black;
+
+    &:hover,
+    &:focus {
+      cursor: pointer;
+    }
+  }
+  & input::placeholder {
+    color: $brand-color;
+    font-size: 15px;
+  }
+  & textarea::placeholder {
+    color: $brand-color;
+    font-size: 15px;
+  }
+}

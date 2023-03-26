@@ -1,0 +1,15 @@
+.bg-delivery2 {
+  position: relative;
+  &__title {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    font-size: 90px;
+    color: $brand-color;
+    font-family: "Permanent Marker", cursive;
+  }
+  &__text {
+    color: $whitecolor;
+    font-size: 18px;
+  }
+}

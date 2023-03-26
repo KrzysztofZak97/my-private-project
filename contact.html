@@ -66,7 +66,57 @@
         </nav>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section>
+        <img src="./images/contact.png" width="1200px" />
+      </section>
+      <section class="contact-form">
+        <a class="contact-text">xxxxxx@xxx.xxx</a>
+        <form class="form-display">
+          <label class="form-display__label">
+            <a class="form-display__text">Imie</a>
+            <input
+              class="form-display__input"
+              type="text"
+              name="name"
+              placeholder="Jan"
+              required
+            />
+          </label>
+          <label class="form-display__label">
+            <a class="form-display__text">Telefon</a>
+            <input
+              class="form-display__input"
+              type="tel"
+              name="tel"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+              placeholder="111-111-111"
+              required
+            />
+          </label>
+          <label class="form-display__label">
+            <a class="form-display__text">Email</a>
+            <input
+              class="form-display__input"
+              type="email"
+              name="email"
+              placeholder="jankowalski@gmail.com"
+              required
+            />
+          </label>
+          <label class="form-display__label">
+            <a class="form-display__text">Wiadomość</a>
+            <textarea
+              class="form-display__textarea"
+              name="coment"
+              rows="20"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
+          <button class="form-display__button" type="submit">Wyślij</button>
+        </form>
+      </section>
+    </main>
     <footer class="footer-line">
       <div class="footer-border">
         <div class="footer-item">
