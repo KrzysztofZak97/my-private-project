@@ -1,0 +1,27 @@
+.aboutus {
+  position: relative;
+  &__img {
+    object-fit: cover;
+  }
+  &__title {
+    position: absolute;
+    font-size: 50px;
+    top: 50px;
+    left: 70px;
+    color: $brand-color;
+    font-family: "Permanent Marker", cursive;
+  }
+}
+.aus-article {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  &__title {
+    color: $brand-color;
+    font-size: 30px;
+    font-family: "Permanent Marker", cursive;
+  }
+  &__text {
+    color: $whitecolor;
+    font-size: 20px;
+  }
+}
