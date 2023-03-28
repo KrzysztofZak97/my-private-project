@@ -1,0 +1,79 @@
+.display-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-products {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  &--background {
+    background: gray;
+    border-radius: 25px;
+
+    &:hover {
+      box-shadow: 0px 1px 1px $brand-color, 0px 4px 4px $brand-color,
+        1px 4px 6px $brand-color;
+      cursor: pointer;
+    }
+  }
+  &__item {
+    margin: 0px;
+    width: 300px;
+  }
+  &__text {
+    padding: 10px 15px;
+  }
+  &__title {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: $brand-color;
+  }
+  &__name {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: $brand-color;
+  }
+  &__name-preis {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: $brand-color;
+    margin-left: 40px;
+  }
+  &__button {
+    margin-top: 10px;
+    padding: 15px;
+    color: black;
+    font-weight: 800;
+    background-color: $brand-color;
+    font-size: 15px;
+    border-radius: 25px;
+    &:hover {
+      box-shadow: 0px 1px 1px $brand-color, 0px 4px 4px $brand-color,
+        1px 4px 6px $brand-color;
+      cursor: pointer;
+    }
+  }
+}
+.elephant-bgop {
+  position: relative;
+  margin-bottom: 50px;
+  &__title {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    color: $brand-color;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Permanent Marker", cursive;
+  }
+}
